@@ -23,35 +23,35 @@ public class saha2 extends JFrame implements ActionListener{
 		setTitle("İLK 11");
 		con=getContentPane();
 		con.setLayout(null);
-		ImageIcon image=new ImageIcon("img/index.jpeg");
+		ImageIcon image=new ImageIcon("img/xx.jpeg");
 		setSize(600,400);
 		panel=new JPanel(){
 			public void paintComponent(Graphics g){
 				super.paintComponents(g);
-				Image ımage=new ImageIcon("img/index.jpeg").getImage();
-				Image ımage1=new ImageIcon("img/n.jpg").getImage();
-				Image ımage2=new ImageIcon("img/n.jpg").getImage();
-				Image ımage3=new ImageIcon("img/n.jpg").getImage();
-				Image ımage4=new ImageIcon("img/n.jpg").getImage();
-				Image ımage5=new ImageIcon("img/n.jpg").getImage();
-				Image ımage6=new ImageIcon("img/n.jpg").getImage();
-				Image ımage7=new ImageIcon("img/n.jpg").getImage();
-				Image ımage8=new ImageIcon("img/n.jpg").getImage();
-				Image ımage9=new ImageIcon("img/n.jpg").getImage();
-				Image ımage10=new ImageIcon("img/n.jpg").getImage();
-				Image ımage11=new ImageIcon("img/n.jpg").getImage();
+				Image ımage=new ImageIcon("img/xx.jpeg").getImage();
+				Image ımage1=new ImageIcon("formalar/galatasaray.png").getImage();
+				Image ımage2=new ImageIcon("formalar/galatasaray.png").getImage();
+				Image ımage3=new ImageIcon("formalar/galatasaray.png").getImage();
+				Image ımage4=new ImageIcon("formalar/beşiktaş.png").getImage();
+				Image ımage5=new ImageIcon("formalar/beşiktaş.png").getImage();
+				Image ımage6=new ImageIcon("formalar/galatasaray.png").getImage();
+				Image ımage7=new ImageIcon("formalar/beşiktaş.png").getImage();
+				Image ımage8=new ImageIcon("formalar/galatasaray.png").getImage();
+				Image ımage9=new ImageIcon("formalar/beşiktaş.png").getImage();
+				Image ımage10=new ImageIcon("formalar/galatasaray.png").getImage();
+				Image ımage11=new ImageIcon("formalar/beşiktaş.png").getImage();
 				g.drawImage(ımage,0, 0,bitisX,bitisY,null);
-				g.drawImage(ımage1,baslangıcX,baslangıcY,50, 50, null); //kaleci
-				g.drawImage(ımage2, baslangıcX1, baslangıcY1, 50, 50,null);//stoper
-				g.drawImage(ımage3, baslangıcX2, baslangıcY2, 50, 50,null);//sağbek
-				g.drawImage(ımage4, baslangıcX3,baslangıcY3, 50, 50,null);//solbek
-				g.drawImage(ımage5, baslangıcX4,baslangıcY4, 50, 50,null);//ortasaha
-				g.drawImage(ımage6,baslangıcX5,baslangıcY5, 50, 50,null);//sol_açık
-				g.drawImage(ımage7, baslangıcX6, baslangıcY6, 50, 50,null);//ortasaha
-				g.drawImage(ımage8, baslangıcX7, baslangıcY7, 50, 50,null);//ortasaha
-				g.drawImage(ımage9, baslangıcX8, baslangıcY8, 50, 50,null);//sağ_açık
-				g.drawImage(ımage10,baslangıcX9, baslangıcY9, 50, 50,null);//forvet
-				g.drawImage(ımage11, baslangıcX10, baslangıcY10, 50, 50,null);//forvet
+				g.drawImage(ımage1,baslangıcX,baslangıcY,60, 50, null); //kaleci
+				g.drawImage(ımage2, baslangıcX1, baslangıcY1, 60, 50,null);//stoper
+				g.drawImage(ımage3, baslangıcX2, baslangıcY2, 60, 50,null);//sağbek
+				g.drawImage(ımage4, baslangıcX3,baslangıcY3, 60, 50,null);//solbek
+				g.drawImage(ımage5, baslangıcX4,baslangıcY4, 60, 50,null);//ortasaha
+				g.drawImage(ımage6,baslangıcX5,baslangıcY5, 60, 50,null);//sol_açık
+				g.drawImage(ımage7, baslangıcX6, baslangıcY6, 60, 50,null);//ortasaha
+				g.drawImage(ımage8, baslangıcX7, baslangıcY7, 60, 50,null);//ortasaha
+				g.drawImage(ımage9, baslangıcX8, baslangıcY8, 60, 50,null);//sağ_açık
+				g.drawImage(ımage10,baslangıcX9, baslangıcY9, 60, 50,null);//forvet
+				g.drawImage(ımage11, baslangıcX10, baslangıcY10, 60, 50,null);//forvet
 				tm.start();
 				bitisX=getSize().width;
 				bitisY=getSize().height;
